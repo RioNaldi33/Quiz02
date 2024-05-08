@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="RENTAL PLAYSTATION"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbPs5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PS5" />
+
+        <RadioButton
+            android:id="@+id/rbPs4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PS4" />
+
+        <RadioButton
+            android:id="@+id/rbPs3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PS3" />
+
+        <RadioButton
+            android:id="@+id/rbPsvr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PSVR"/>
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Tambahan"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbIndomie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indomie" />
+
+        <RadioButton
+            android:id="@+id/rbMieAyam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mie Ayam" />
+
+        <RadioButton
+            android:id="@+id/rbSiomay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Siomay" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Waktu"/>
+
+    <EditText
+        android:id="@+id/etJam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:hint="Jam Bermain"/>
+
+    <Button
+        android:id="@+id/btnPesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Pesan"/>
+
+</LinearLayout>
