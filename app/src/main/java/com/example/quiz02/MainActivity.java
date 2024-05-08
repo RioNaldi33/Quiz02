@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         rbPs5 = findViewById(R.id.rbPs5);
         rbPs4 = findViewById(R.id.rbPs4);
         rbPs3 = findViewById(R.id.rbPs3);
